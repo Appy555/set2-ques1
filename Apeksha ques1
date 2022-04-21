@@ -1,0 +1,6 @@
+from scipy import stats
+from scipy.stats import norm
+z=(60-55)/8
+z
+p_value=1-stats.norm.cdf(abs(0.625))
+p_value
